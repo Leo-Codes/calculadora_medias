@@ -18,9 +18,9 @@
             <img src="./images/logo.png" alt="">
             <h1>Calculadora de médias</h1>
         </header>
-        <form action="">
-            <input type="text" name="" id="" required placeholder="Nome da atividade">
-            <input type="number" name="" id="" required placeholder="Nota da Atividade" min="0" max="10">
+        <form action="" id="insert-form">
+            <input type="text" name="" id="nome-atividade" required placeholder="Nome da atividade">
+            <input type="number" name="" id="nota-atividade" required placeholder="Nota da Atividade" min="0" max="10">
             <button type="submit">Adicionar +</button>
         </form>
         <table>
@@ -31,7 +31,7 @@
                     <th>Aprovado ?</th>
                 </tr>
             </thead>
-            <tbody>
+            <tbody id="table-body">
                 <tr>
                     <td>Atividade 1</td>
                     <td>7</td>
@@ -49,5 +49,5 @@
 
     </div>
 </body>
-
+<script src="main.js"></script>
 </html>
